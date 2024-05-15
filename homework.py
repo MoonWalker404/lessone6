@@ -67,3 +67,4 @@ for staff in zoo.staff:
         staff.feed_animal(zoo.animals[0])
     elif isinstance(staff, Veterinarian):
         staff.heal_animal(zoo.animals[1])
+
